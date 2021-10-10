@@ -1,0 +1,42 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.0.2"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+
+    rxJavaVersion = '2.2.12'
+    rxAndroidVersion = '2.1.1'
+
+    retrofitVersion = '2.6.1'
+    retrofitAdapterVersion = '1.0.0'
+    loggingInterceptorVersion = '4.1.0'
+
+    okhttp3LoggingInterceptorVersion = '4.9.0'
+
+    sdpVersion = '1.0.6'
+
+    butterKnifeVersion = '10.2.1'
+
+    daggerVersion = '2.11'
+
+    androidMaterialVersion = '1.2.1'
+    navigationVersion = "2.3.0"
+    materialVersion = "1.1.0"
+    uCropVersion = "2.2.3"
+}
