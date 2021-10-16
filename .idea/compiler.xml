@@ -4,6 +4,7 @@
     <bytecodeTargetLevel target="1.7">
       <module name="AssignametTask.app" target="11" />
       <module name="AssignametTask.data" target="11" />
+      <module name="AssignametTask.lib" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
